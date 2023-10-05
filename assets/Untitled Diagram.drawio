@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-10-05T01:59:55.889Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.7.5" etag="8A5-UPgB0Pmq0tfNitZ9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-05T02:33:28.044Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s4A9lQ72dwJT3gO49laE" version="21.7.5" type="github">
   <diagram name="Page-1" id="CKpC-UL6GchJBgNZHu84">
-    <mxGraphModel>
+    <mxGraphModel dx="1602" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-1" value="&lt;b&gt;Web/App server&lt;/b&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-2" value="&lt;b&gt;Master&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="320" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-3" value="&lt;b&gt;Slave2&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-4" value="&lt;b&gt;Slave1&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84.5" y="220" as="sourcePoint" />
+            <mxPoint x="85" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="350" as="sourcePoint" />
+            <mxPoint x="180" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="370" as="sourcePoint" />
+            <mxPoint x="180" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-9" value="&lt;b&gt;Web/App server&lt;/b&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer_with_Server.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="100" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-10" value="&lt;b&gt;Master&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-11" value="&lt;b&gt;Slave2&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="430" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-12" value="&lt;b&gt;Master&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536.25" y="220" as="sourcePoint" />
+            <mxPoint x="621.75" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="664.5" y="350" as="sourcePoint" />
+            <mxPoint x="664.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CLn21Tj2TMBCjzgVihKm-16" value="" style="shape=mxgraph.mockup.markup.redX;fillColor=#ff0000;html=1;shadow=0;whiteSpace=wrap;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="493.75" y="340" width="42.5" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
