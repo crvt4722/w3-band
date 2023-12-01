@@ -1,9 +1,286 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T09:18:23.653Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="22.1.5" etag="Z1zngVMAmI5G7mFSrSkb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-01T10:25:14.864Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="YSMM2EVVUCv1AWyllZMn" version="22.1.5" type="github">
   <diagram name="Page-1" id="on1YoGWGGCBxw0oyXFnt">
-    <mxGraphModel>
+    <mxGraphModel dx="1602" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="337" y="250" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="150" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-3" value="&lt;b&gt;Webservice&lt;/b&gt;" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="174" y="160" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-4" value="&lt;b&gt;S3 Storage&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/networking/Cloud_Rack_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="359" y="265" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="129" y="360" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-6" value="&lt;b&gt;RabbitMQ&lt;/b&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#E7157B;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.mq_broker;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380.5" width="78" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="538.5" y="370" width="305" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-8" value="&lt;b&gt;PostgreSQL&lt;/b&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Azure_Database_for_PostgreSQL_servers.svg;" vertex="1" parent="1">
+          <mxGeometry x="610.5" y="399.5" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-9" value="&lt;b&gt;Guest Agent&lt;/b&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.d" vertex="1" parent="1">
+          <mxGeometry x="762.5" y="380" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-10" value="&lt;b&gt;Log File&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="602" y="500" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-11" value="&lt;b&gt;Logrotate&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="755.5" y="493" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zx4tTIuuqs4GMSWgKBpW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629.5" y="460" as="sourcePoint" />
+            <mxPoint x="478.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-11" target="Zx4tTIuuqs4GMSWgKBpW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428.5" y="410" as="sourcePoint" />
+            <mxPoint x="478.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-14" value="5. Rotate file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-13">
+          <mxGeometry x="-0.3171" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-9" target="Zx4tTIuuqs4GMSWgKBpW-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428.5" y="410" as="sourcePoint" />
+            <mxPoint x="478.5" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-16" value="4. Start container" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-15">
+          <mxGeometry x="0.0159" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-3" target="Zx4tTIuuqs4GMSWgKBpW-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="450" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-20" value="2. Send message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-19">
+          <mxGeometry x="0.1786" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-21" value="&lt;b&gt;User Front-end&lt;/b&gt;" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="178.4" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="420" as="sourcePoint" />
+            <mxPoint x="201" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-23" value="1. Call API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-22">
+          <mxGeometry x="-0.0658" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.35;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-9" target="Zx4tTIuuqs4GMSWgKBpW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="748" y="380" as="sourcePoint" />
+            <mxPoint x="748" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-27" value="7. Upload new log files to S3 Storage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-26">
+          <mxGeometry x="0.3099" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="750" width="305" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-67" value="&lt;b&gt;Guest Agent&lt;/b&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.d" vertex="1" parent="1">
+          <mxGeometry x="625" y="760" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-68" value="&lt;b&gt;Log File&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="880" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-69" value="&lt;b&gt;Logrotate&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="618" y="873" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zx4tTIuuqs4GMSWgKBpW-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="492" y="840" as="sourcePoint" />
+            <mxPoint x="341" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-71" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-69" target="Zx4tTIuuqs4GMSWgKBpW-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291" y="790" as="sourcePoint" />
+            <mxPoint x="341" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-72" value="5. Rotate file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-71">
+          <mxGeometry x="-0.3171" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-73" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-67" target="Zx4tTIuuqs4GMSWgKBpW-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="291" y="790" as="sourcePoint" />
+            <mxPoint x="341" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-74" value="4. Start container" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-73">
+          <mxGeometry x="0.0159" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-78" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mariadb_instance;" vertex="1" parent="1">
+          <mxGeometry x="464.5" y="770" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-79" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="750" width="305" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-80" value="&lt;b&gt;Guest Agent&lt;/b&gt;" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.d" vertex="1" parent="1">
+          <mxGeometry x="290" y="750" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-81" value="&lt;b&gt;Log File&lt;/b&gt;" style="image;html=1;image=img/lib/clip_art/general/Full_Folder_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="129.5" y="870" width="55" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-82" value="&lt;b&gt;Logrotate&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/docker-128.png" vertex="1" parent="1">
+          <mxGeometry x="283" y="863" width="54" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-83" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zx4tTIuuqs4GMSWgKBpW-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="830" as="sourcePoint" />
+            <mxPoint x="6" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-84" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-82" target="Zx4tTIuuqs4GMSWgKBpW-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="780" as="sourcePoint" />
+            <mxPoint x="6" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-85" value="5. Rotate file" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-84">
+          <mxGeometry x="-0.3171" relative="1" as="geometry">
+            <mxPoint x="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-86" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-80" target="Zx4tTIuuqs4GMSWgKBpW-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-44" y="780" as="sourcePoint" />
+            <mxPoint x="6" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-87" value="4. Start container" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-86">
+          <mxGeometry x="0.0159" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-90" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#C925D1;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.rds_mysql_instance;" vertex="1" parent="1">
+          <mxGeometry x="124.5" y="760" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-91" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.02;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="Zx4tTIuuqs4GMSWgKBpW-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="390" as="sourcePoint" />
+            <mxPoint x="722.8" y="376.81" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-92" value="3. Send messge" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-91">
+          <mxGeometry x="-0.3188" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-93" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-10" target="Zx4tTIuuqs4GMSWgKBpW-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="428.5" y="650" as="sourcePoint" />
+            <mxPoint x="478.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-94" value="6. Get new rotate files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-93">
+          <mxGeometry x="-0.3551" y="2" relative="1" as="geometry">
+            <mxPoint x="31" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-95" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="174" y="880" as="sourcePoint" />
+            <mxPoint x="280" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-96" value="6. Get new rotate files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-95">
+          <mxGeometry x="-0.3551" y="2" relative="1" as="geometry">
+            <mxPoint x="17" y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-97" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512" y="890" as="sourcePoint" />
+            <mxPoint x="618" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-98" value="6. Get new rotate files" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-97">
+          <mxGeometry x="-0.3551" y="2" relative="1" as="geometry">
+            <mxPoint x="31" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-99" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.225;entryY=-0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-6" target="Zx4tTIuuqs4GMSWgKBpW-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="450" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-100" value="3. Send message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-99">
+          <mxGeometry x="0.0154" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-101" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.375;exitY=0.24;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-80" target="Zx4tTIuuqs4GMSWgKBpW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="450" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-102" value="Upload new log files to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-101">
+          <mxGeometry x="-0.0644" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-103" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.02;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-6" target="Zx4tTIuuqs4GMSWgKBpW-67">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="450" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-104" value="3. Send message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-103">
+          <mxGeometry x="0.1373" y="2" relative="1" as="geometry">
+            <mxPoint x="-33" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-105" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.02;exitY=0.06;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Zx4tTIuuqs4GMSWgKBpW-67" target="Zx4tTIuuqs4GMSWgKBpW-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="sourcePoint" />
+            <mxPoint x="450" y="610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zx4tTIuuqs4GMSWgKBpW-106" value="7. Upload new log files to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Zx4tTIuuqs4GMSWgKBpW-105">
+          <mxGeometry x="-0.2725" y="1" relative="1" as="geometry">
+            <mxPoint x="18" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
