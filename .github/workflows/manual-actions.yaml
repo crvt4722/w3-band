@@ -1,0 +1,36 @@
+name: Manual Operational Workflow
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment for deployment'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - dev
+          - staging
+          - production
+      deploy_tags:
+        description: 'Release version or tag name'
+        required: true
+        type: string
+      run_tests:
+        description: 'Execute full integration suite'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output Choice and String Inputs
+        run: |
+          echo "Deploying to: ${{ inputs.environment }}"
+          echo "Version tag: ${{ inputs.deploy_tags }}"
+          
+      - name: Conditional Execution Based on Boolean Input
+        if: ${{ inputs.run_tests == true }}
+        run: echo "Running automated test suites..."
